@@ -1097,7 +1097,7 @@ body
     .image
 {
     width: 90%;
-    margin: 1rem;
+    margin: 0.5rem;
     box-shadow: black 1px 1px 10px;
 }
     .bg
