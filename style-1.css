@@ -1,0 +1,91 @@
+.body--content--download.hide
+    {
+        display: none;
+        position: absolute;
+        top:0;
+        left:0;
+        z-index: 0;
+    }
+    
+    .body--content--download
+    {
+        background-color: rgb(44, 48, 44);
+        text-align: center;
+        margin: 10rem 5rem 3rem 5rem;
+        padding: 3rem;
+        border-radius: 20px;
+        box-shadow: black 1px 1px 5px;
+    }
+    
+
+
+.body--content--download h1
+{
+    color: rgb(111, 209, 111);
+    font-size: 30px;
+    margin: 2rem;
+}
+
+.body--content--download p
+{
+    color: rgb(126, 126, 126);
+    margin: 3rem;
+    font-size: 17px;
+}
+
+
+
+@media (max-width: 700px) {
+    .body--content--download
+    {
+        background-color: rgb(44, 48, 44);
+        text-align: center;
+        margin: 5rem 3rem 3rem 3rem;
+        padding: 3rem;
+        border-radius: 20px;
+        box-shadow: black 1px 1px 5px;
+    }
+    
+    .body--content--download h1
+{
+    color: rgb(111, 209, 111);
+    font-size: 25px;
+    margin: 2rem;
+}
+
+.body--content--download p
+{
+    color: rgb(126, 126, 126);
+    margin: 3rem;
+    font-size: 15px;
+}
+
+}
+
+
+@media (max-width: 390px) {
+    .body--content--download
+    {
+        background-color: rgb(44, 48, 44);
+        text-align: center;
+        margin: 5rem 1rem 3rem 1rem;
+        padding: 3rem;
+        border-radius: 20px;
+        box-shadow: black 1px 1px 5px;
+    }
+    
+    .body--content--download h1
+{
+    color: rgb(111, 209, 111);
+    font-size: 18px;
+    margin: 2rem;
+}
+
+.body--content--download p
+{
+    color: rgb(126, 126, 126);
+    margin: 3rem;
+    font-size: 10px;
+}
+
+}

@@ -1,0 +1,18 @@
+.boddy--content--about.hide
+{
+    display: none;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 0;
+}
+
+.boddy--content--about
+{
+    background-color: rgb(44, 48, 44);
+    text-align: center;
+    margin: 10rem 5rem 3rem 5rem;
+    padding: 3rem;
+    border-radius: 20px;
+    box-shadow: black 1px 1px 5px;   
+}
