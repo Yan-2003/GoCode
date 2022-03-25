@@ -1108,6 +1108,12 @@ body
         transition: 200ms;
         animation-iteration-count: infinite;
     }
+       .video
+    {
+        width: 300px;
+        height: 250px;
+        box-shadow: black 1px 1px 10px;
+    }
 }
 
 
