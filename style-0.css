@@ -1094,12 +1094,7 @@ body
 
 @media (max-width:390px) {
 
-    .image
-{
-    width: 90%;
-    margin: 0.5rem;
-    box-shadow: black 1px 1px 10px;
-}
+    
     .bg
     {
         position: absolute;
@@ -1112,12 +1107,6 @@ body
         animation-duration: 3s;
         transition: 200ms;
         animation-iteration-count: infinite;
-    }
-       .video
-    {
-        width: 300px;
-        height: 250px;
-        box-shadow: black 1px 1px 10px;
     }
 }
 

@@ -1,3 +1,10 @@
+
+*
+{
+    z-index: 0;
+}
+
+
 .boddy--content--contact.hide
 {
     display: none;
@@ -15,4 +22,405 @@
     padding: 3rem;
     border-radius: 20px;
     box-shadow: black 1px 1px 5px;   
+}
+
+.boddy--content--contact h1
+{
+    color: #855757;
+    padding: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 6rem;
+    font-size: 50px;
+}
+
+.profile
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 5rem 0 5rem ;
+}
+
+.profile h2
+{
+    color: rgb(223, 162, 162);
+    font-size: 30px;
+}
+
+.profile img
+{
+    border-radius: 100% 100% 100% 100%;
+    box-shadow: black 5px 5px 10px  ;
+    width: 50%;
+}
+
+.boddy--content--contact p
+{
+    margin: 5rem;
+    color: rgb(151, 231, 205);
+    font-size: 20px;
+}
+
+
+.table h2
+{
+    color: rgb(167, 231, 151);
+}
+.table
+{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin: 0 5rem 0 5rem;
+}
+
+.table th
+{
+    background-color: rgb(34, 15, 15);
+    padding: 1rem;
+    text-align: center;
+}
+
+.table td
+{
+    background-color: rgb(38, 43, 48);
+    padding: 1rem;
+}
+
+.table a
+{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(127, 100, 224);
+} 
+
+
+
+
+
+
+
+
+
+@media (max-width: 700px) {
+
+    .boddy--content--contact.hide
+{
+    display: none;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 1;
+}
+
+.boddy--content--contact
+{
+    background-color: rgb(44, 48, 44);
+    text-align: center;
+    margin: 10rem 2rem 3rem 2rem;
+    padding: 3rem;
+    border-radius: 20px;
+    box-shadow: black 1px 1px 5px;   
+}
+
+.boddy--content--contact h1
+{
+    color: #855757;
+    padding: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 6rem;
+    font-size: 40px;
+}
+
+.profile
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 1rem 0 1rem ;
+}
+
+.profile h2
+{
+    color: rgb(223, 162, 162);
+    font-size: 20px;
+}
+
+.profile img
+{
+    border-radius: 100% 100% 100% 100%;
+    box-shadow: black 5px 5px 10px  ;
+    width: 50%;
+}
+
+.boddy--content--contact p
+{
+    margin: 5rem;
+    color: rgb(151, 231, 205);
+    font-size: 20px;
+}
+
+
+.table h2
+{
+    color: rgb(167, 231, 151);
+}
+.table
+{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin: 0 5rem 0 5rem;
+}
+
+.table th
+{
+    background-color: rgb(34, 15, 15);
+    padding: 1rem;
+    text-align: center;
+}
+
+.table td
+{
+    background-color: rgb(38, 43, 48);
+    padding: 1rem;
+}
+
+.table a
+{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(127, 100, 224);
+} 
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 500px) {
+
+    .boddy--content--contact.hide
+{
+    display: none;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 1;
+}
+
+.boddy--content--contact
+{
+    background-color: rgb(44, 48, 44);
+    text-align: center;
+    margin: 10rem 1rem 3rem 1rem;
+    padding: 3rem;
+    border-radius: 20px;
+    box-shadow: black 1px 1px 5px;   
+}
+
+.boddy--content--contact h1
+{
+    color: #855757;
+    padding: 1rem;
+
+    text-transform: uppercase;
+    margin-bottom: 6rem;
+    font-size: 30px;
+}
+
+.profile
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0.3rem 0 0.3rem ;
+}
+
+.profile h2
+{
+    color: rgb(223, 162, 162);
+    font-size: 15px;
+}
+
+.profile img
+{
+    border-radius: 100% 100% 100% 100%;
+    box-shadow: black 5px 5px 10px  ;
+    width: 50%;
+}
+
+.boddy--content--contact p
+{
+    margin: 1rem;
+    color: rgb(151, 231, 205);
+    font-size: 15px;
+}
+
+
+.table h2
+{
+    color: rgb(167, 231, 151);
+}
+.table
+{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin: 0 5rem 0 5rem;
+}
+
+.table th
+{
+    background-color: rgb(34, 15, 15);
+    padding: 10px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.table td
+{
+    background-color: rgb(38, 43, 48);
+    padding: 10px;
+    font-size: 10px ;
+}
+
+.table a
+{
+    font-size: 10px;
+    text-decoration: none;
+    color: rgb(127, 100, 224);
+} 
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 370px) {
+
+    .boddy--content--contact.hide
+{
+    display: none;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 1;
+}
+
+.boddy--content--contact
+{
+    background-color: rgb(44, 48, 44);
+    text-align: center;
+    margin: 10rem 1rem 3rem 1rem;
+    padding: 3rem;
+    border-radius: 20px;
+    box-shadow: black 1px 1px 5px;   
+}
+
+.boddy--content--contact h1
+{
+    color: #855757;
+    padding: 1rem;
+    
+    text-transform: uppercase;
+    margin-bottom: 6rem;
+    font-size: 20px;
+}
+
+.profile
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0.3rem 0 0.3rem ;
+}
+
+.profile h2
+{
+    color: rgb(223, 162, 162);
+    font-size: 10px;
+}
+
+.profile img
+{
+    border-radius: 100% 100% 100% 100%;
+    box-shadow: black 5px 5px 10px  ;
+    width: 50%;
+}
+
+.boddy--content--contact p
+{
+    margin: 1rem;
+    color: rgb(151, 231, 205);
+    font-size: 15px;
+}
+
+
+.table h2
+{
+    color: rgb(167, 231, 151);
+}
+.table
+{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin: 0 5rem 0 5rem;
+}
+
+.table th
+{
+    background-color: rgb(34, 15, 15);
+    padding: 10px;
+    text-align: center;
+    font-size: 6px;
+}
+
+.table td
+{
+    background-color: rgb(38, 43, 48);
+    padding: 10px;
+    font-size: 6px ;
+}
+
+.table a
+{
+    font-size: 10px;
+    text-decoration: none;
+    color: rgb(127, 100, 224);
+} 
+    
 }
