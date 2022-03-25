@@ -1094,7 +1094,12 @@ body
 
 @media (max-width:390px) {
 
-    
+    .image
+{
+    width: 90%;
+    margin: 1rem;
+    box-shadow: black 1px 1px 10px;
+}
     .bg
     {
         position: absolute;
