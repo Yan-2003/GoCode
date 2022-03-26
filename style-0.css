@@ -67,6 +67,12 @@ body
     z-index: 3;
 
 }
+.version
+{
+    font-size: 12px;
+    color: white;
+    text-decoration: underline;
+}
 .head--content--main
 {
     position: sticky;
@@ -123,7 +129,7 @@ body
 {
     background-color: rgb(44, 48, 44);
     text-align: center;
-    margin: 10rem 5rem 3rem 5rem;
+    margin: 5rem 5rem 3rem 5rem;
     padding: 3rem;
     border-radius: 20px;
     box-shadow: black 1px 1px 5px;
